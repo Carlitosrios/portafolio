@@ -1,0 +1,58 @@
+.content {
+    background-color: #FFC289;
+    min-height: 80%;
+    width: 90%;
+    padding: 0% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 250px 0px 0px;
+
+}
+
+#picture {
+    width: 382px;
+    height: 428px;
+    border-radius: 170%;
+    object-fit: contain;
+}
+
+.info {
+    width: 60%;
+    color: black;
+}
+
+#info-container {
+    width: 50%;
+}
+
+#info-container>* {
+    margin: 20px 0;
+}
+
+#info-container h1 {
+    font-size: 40px;
+}
+
+#button-container>* {
+    margin: 20px 20px 20px 0;
+}
+
+#button-container button {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#contact-button {
+    background-color: #FF7E07;
+    color: white;
+    border: none;
+
+}
+
+#Portafolio-button {
+    background-color: #E26C3C;
+    color: white;
+    border: 1px solid #E26C3C;
+}
